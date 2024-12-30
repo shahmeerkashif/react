@@ -1,0 +1,89 @@
+body{
+    font: 1.6rem halvetica;
+    box-sizing: border-box;
+    background-color: #F0F2F5;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.login{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.facebook-text{
+    font-size: 4rem;
+    color: #1877F2;
+    font-weight: 700;
+}
+.title{
+    font-size: 2rem;
+    color: black;
+    font-weight: 500;
+}
+.login-container{
+    border: .3rem solid white;
+    background-color: white;
+    height: 23rem;
+    width: 26rem;
+    border-radius: .5rem;
+}
+input[type=email]{
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=password]{
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input::placeholder{
+    font-size: 1.3rem;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    background-color: #1877F2;
+    border: none;
+    padding: 15px 32px;
+    justify-content: center;
+    margin: 4px 2px;
+    border-radius: .5rem;
+    color: white;
+}
+.forget a{
+    color: #1877F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F0F2F5;
+    background-color: #42B72A;
+    border: none;
+    padding: 15px 32px;
+    margin-left: 22%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.page a{
+    font-size: 1.2rem;
+
+    color: black;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.page{
+    font-size: 1rem;
+    padding-left: 10%;
+}
